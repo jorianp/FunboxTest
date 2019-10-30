@@ -1,0 +1,13 @@
+.card__prize {
+    max-width: 150px;
+    margin: 0;
+    margin-top: 15px;
+    margin-left: 51px;
+
+    font-family: 'Trebuchet MS';
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 16px;
+
+    color: #666666;
+}

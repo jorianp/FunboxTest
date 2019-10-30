@@ -1,0 +1,17 @@
+.card__weight-kg {
+    max-width: 60px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+
+    font-family: 'TrebuchetMS';
+    font-size: 25px;
+
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 22px;
+
+    color: #FFFFFF;
+}

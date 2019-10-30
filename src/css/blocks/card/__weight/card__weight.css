@@ -1,0 +1,25 @@
+.card__weight {
+    width: 80px;
+    height: 80px;
+
+    position: absolute;
+    right: 16px;
+    bottom: 16px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    border-radius: 100%;
+    background: #1698D9;
+
+    z-index: 2;
+}
+
+.card__weight-selected {
+    background: #D91667;
+}
+
+.card__weight-disabled {
+    background: #B3B3B3;
+}

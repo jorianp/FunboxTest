@@ -1,0 +1,12 @@
+.card__title {
+    max-width: 211px;
+    margin: 0;
+    margin: auto;
+    margin-top: 6px;
+
+    font-family: 'TrebuchetMS-Bold';
+    font-size: 48px;
+    letter-spacing: 0;
+
+    color: #000000;
+}

@@ -1,0 +1,18 @@
+.card__footer {
+    max-width: 320px;
+    margin: 0;
+    margin: auto;
+    margin-top: 14px;
+
+    font-family: 'Trebuchet MS';
+    font-size: 13px;
+
+    letter-spacing: 0;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.card__footer-dis {
+    color: #FFFF66;
+}

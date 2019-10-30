@@ -1,0 +1,12 @@
+.card__subtitle {
+    max-width: 211px;
+    margin: 0;
+    margin: auto;
+    /* margin-left: 51px; */
+
+    font-family: 'TrebuchetMS-Bold';
+    font-size: 24px;
+    letter-spacing: 0;
+
+    color: #000000;
+}

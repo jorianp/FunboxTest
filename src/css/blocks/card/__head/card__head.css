@@ -1,0 +1,20 @@
+.card__head {
+    max-width: 205px;
+    margin: 0;
+    margin: auto;
+    padding-top: 20px;
+
+    font-family: 'Trebuchet MS';
+    font-size: 16px;
+    letter-spacing: 0;
+
+    color: #666666;
+}
+
+.card__head-selected {
+    color: #D91667;
+}
+
+.card__head-select {
+    color: #E52E7A;
+}

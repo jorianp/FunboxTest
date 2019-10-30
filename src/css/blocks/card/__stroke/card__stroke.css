@@ -1,0 +1,8 @@
+.card__stroke {
+    color: #1698D9;
+    cursor: pointer;
+}
+
+.card__stroke_dashed {
+    border-bottom: 1px dashed #1698D9;
+}

@@ -1,0 +1,30 @@
+.main__list {
+    max-width: 1120px;
+    margin: auto;
+
+    display: grid;
+    grid-template-columns: 320px 320px 320px;
+    grid-gap: 80px;
+}
+
+@media (min-width: 1024px) {
+    .main__list {
+        height: 509px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .main__list {
+        display: flex;
+        margin-top: 50px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 767px) {
+    .main__list {
+        display: flex;
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Eliseev Alexey">
+    <meta name="description" content="Квалификационное задание для разработчиков HTML/CSS/JS">
+    <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.chunks.main.css %>">
+    <title>Main</title>
+</head>
+<body>
+    <div class="page">
+        <section class="header">
+            <h1 class="header__title">Ты сегодня покормил кота?</h1>
+        </section>
+
+        <section class="main">
+
+            <div class="main__list">
+                
+                <div class="card card_fua">
+                    <div class="card__main">
+                        <div class="card__disabled">
+                            <p class="card__head">Сказочное заморское яство</p>
+                            <h1 class="card__title">Нямушка</h1>
+                            <h2 class="card__subtitle">с фуа-гра</h2>
+                            <p class="card__prize"><b>10</b> порций<br> мышь в подарок</p>
+                            <div class="card__weight">
+                                <p class="card__weight-kg"><span class="card__weight-number">0,5</span>кг</p>
+                            </div>
+                            <img class="card__image" src="<%=require('./images/Photo.svg')%>" alt="">
+                        </div>
+                    </div>
+                    <p class="card__footer fua">Чего сидишь? Порадуй котэ, <span class="card__stroke">купи</span><span style="color: #1698D9">.<span></p>
+                </div>
+
+                <div class="card card_fish">
+                    <div class="card__main">
+                        <div class="card__disabled">
+                            <p class="card__head">Сказочное заморское яство</p>
+                            <h1 class="card__title">Нямушка</h1>
+                            <h2 class="card__subtitle">с рыбой</h2>
+                            <p class="card__prize"><b>40</b> порций<br> <b>2</b> мыши в подарок</p>
+                            <div class="card__weight">
+                                <p class="card__weight-kg"><span class="card__weight-number">2</span>кг</p>
+                            </div>
+                            <img class="card__image" src="<%=require('./images/Photo.svg')%>" alt="">
+                        </div>
+                    </div>
+                    <p class="card__footer fish">Чего сидишь? Порадуй котэ, <span class="card__stroke">купи</span><span style="color: #1698D9">.<span></span></p>
+                </div>
+
+                <div class="card card_chk">
+                    <div class="card__main">
+                        <div class="card__disabled">
+                            <p class="card__head">Сказочное заморское яство</p>
+                            <h1 class="card__title">Нямушка</h1>
+                            <h2 class="card__subtitle">с курой</h2>
+                            <p class="card__prize"><b>100</b> порций<br> <b>5</b> мышей в подарок<br> заказчик доволен</p>
+                            <div class="card__weight">
+                                <p class="card__weight-kg"><span class="card__weight-number">5</span>кг</p>
+                            </div>
+                            <img class="card__image" src="<%=require('./images/Photo.svg')%>" alt="">
+                        </div>
+                    </div>
+                    <p class="card__footer chk">Чего сидишь? Порадуй котэ, <span class="card__stroke">купи</span><span style="color: #1698D9">.<span></span></p>
+                </div>
+
+            </div>
+
+        </section>
+    </div>
+
+    <script src="<%= htmlWebpackPlugin.files.chunks.main.entry %>"></script>
+</body>
+</html>
